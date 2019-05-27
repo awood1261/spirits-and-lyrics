@@ -1,0 +1,23 @@
+.featured-episode {
+    &-imagery {
+        margin-bottom: 80px;
+    }
+    &-content {
+        border-top: 1px solid $yellow;
+    }
+    .subtitle {
+        margin-top: -.5em;
+        text-align: center;
+    }
+    &-info {
+        color: $gray-medium;
+        font-size: .9em;
+        p {
+            margin: 3px;
+        }
+    }
+    &-description {
+        width: 50%;
+        line-height: 1.5em;
+    }
+}

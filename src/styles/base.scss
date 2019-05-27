@@ -1,25 +1,99 @@
-@import 'variables';
-@import 'fonts';
+@import "variables";
+@import "fonts";
 @import "norm/variables";
-@import '../components/SnlHeader/header';
-@import '../components/Footer/footer';
-@import '../components/Hero/homepage-hero';
+@import "../components/SnlHeader/header";
+@import "../components/Footer/footer";
+@import "../components/Hero/homepage-hero";
+@import "../components/FeaturedEpisode/featured-episode";
+@import "../components/Newsletter/newsletter";
 
 body {
-    background-color: $black;
-    color: $gray-light;
-    font-family: Raleway;
+  background-color: $black;
+  color: $gray-light;
+  font-family: Raleway;
 }
 
 .title {
-    @include staatliches;
+  @include staatliches;
+}
+
+.subtitle {
+  @include staatliches;
+  color: $yellow;
+  font-size: 3.5em;
+  text-align: left;
+  margin-top: 0;
+}
+
+.section-title {
+  color: $white;
+  font-size: $h1-font-size;
+  font-weight: normal;
+  margin-bottom: 0.25em;
 }
 
 .legal {
-    font-size: .8em;
+  font-size: 0.8em;
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 1280px;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.ribbon {
+  margin-bottom: 80px;
+}
+
+.link {
+  font-weight: bold;
+  &--violet {
+    color: $violet-bright;
+  }
+}
+
+.band {
+  padding: 40px 0;
+  &--dark-gray {
+    background-color: $gray-dark;
+    .input--text {
+      input {
+        border: 1px solid $gray-light;
+        background-color: $gray-dark;
+        color: $gray-light;
+      }
+    }
+  }
+}
+
+.button {
+  padding: 17px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 0;
+  &--small {
+    padding: 14px 20px;
+  }
+  &--black {
+    background-color: $black;
+    border: 1px solid $orange;
+    color: $white;
+  }
+  &--violet {
+    background-color: $violet;
+    color: $white;
+  }
+  &-icon {
+    max-width: 25px;
+    width: 25px;
+  }
+}
+
+.input {
+    &--text {
+        input {
+            padding: 13px 30px;
+            min-width: 300px;
+        }
+    }
 }

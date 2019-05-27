@@ -5,6 +5,8 @@ import Layout from "../components/layout"
 // import Image from "../components/image"
 import SEO from "../components/seo"
 import HomepageHero from "../components/Hero/HomepageHero"
+import FeaturedEpisode from "../components/FeaturedEpisode/FeaturedEpisode"
+import Newsletter from "../components/Newsletter/Newsletter"
 
 const IndexPage = () => (
   <StaticQuery
@@ -23,6 +25,13 @@ const IndexPage = () => (
               ...GatsbyImageSharpFluid
             }
           }
+        },
+        midtn: file(relativePath: { eq: "images/mid-ten-feat-ep.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
         }
       }
     `}
@@ -34,6 +43,10 @@ const IndexPage = () => (
           itunesUrl={data.itunes.childImageSharp.fluid}
           googlePlayUrl={data.googleplay.childImageSharp.fluid}
         />
+        <FeaturedEpisode
+          midtnUrl={data.midtn.childImageSharp.fluid}
+        />
+        <Newsletter />
       </Layout>
     )}
   />
