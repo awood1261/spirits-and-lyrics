@@ -27,12 +27,15 @@
         }
     }
     &-cta-section {
-        margin-top: $base-line-height;
+        margin: $base-line-height auto;
         display: flex;
         justify-content: center;
         flex-direction: column;
+        max-width: 300px;
         @include desktop {
+            margin-top: $base-line-height;
             flex-direction: row;
+            max-width: inherit;
         }
         .button {
             @include desktop {

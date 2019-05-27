@@ -12,6 +12,7 @@ import { Helmet } from "react-helmet"
 
 import Header from "./header"
 import SnlHeader from "./SnlHeader/SnlHeader"
+import MobileHeader from "./MobileHeader/MobileHeader"
 import Footer from "./Footer/Footer"
 
 // import "./layout.css"
@@ -61,7 +62,10 @@ const Layout = ({ children }) => (
       render={data => (
         <>
           <SnlHeader logoUrl={data.logo.childImageSharp.fluid} />
-          <main>{children}</main>
+          <MobileHeader 
+            footerLogoUrl={data.footerlogo.childImageSharp.fluid}
+          />
+          <main className="middle-content">{children}</main>
           <Footer
             year={new Date().getFullYear()}
             footerMapUrl={data.footermap.childImageSharp.fluid}

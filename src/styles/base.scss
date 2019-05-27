@@ -3,6 +3,7 @@
 @import "fonts";
 @import "norm/variables";
 @import "../components/SnlHeader/header";
+@import "../components/MobileHeader/mobile-header";
 @import "../components/Footer/footer";
 @import "../components/Hero/homepage-hero";
 @import "../components/FeaturedEpisode/featured-episode";
@@ -20,6 +21,13 @@ body {
 
 .title {
   @include staatliches;
+}
+
+.middle-content {
+  margin-top: 90px;
+  @include desktop {
+    margin-top: 0;
+  }
 }
 
 .subtitle {
