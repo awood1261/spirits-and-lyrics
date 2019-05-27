@@ -3,20 +3,20 @@ import {Link} from "gatsby"
 import Img from "gatsby-image"
 
 const Footer = props => (
-    <footer className="footer">
+    <footer className="footer container">
       <div className="footer-col">
       <Img
             alt="Spirits and Lyrics Logo"
             fluid={props.footerLogoUrl}
             className="footer-logo"
         />
-        <p>Spirits &amp; Lyrics is produced by Alex Wood. All episodes are recorded in Lansdale and Philadelphia PA.</p>
+        <p className="legal">Spirits &amp; Lyrics is produced by Alex Wood. All episodes are recorded in Lansdale and Philadelphia PA.</p>
         <Img
             alt="Pennsylvania Map"
             fluid={props.footerMapUrl}
             className="footer-map"
         />
-        <p>&copy; {props.year}</p>
+        <p className="legal">&copy; {props.year} Glown Folks Podcast Network</p>
       </div>
       <div className="footer-col">
         <ul className="footer-list">
