@@ -10,7 +10,13 @@
         "phenomena": "shape-shfiting",
         "songGenre": "blues",
         "artist": "Freddie Waters",
-        "slug": "middle-tennessee"
+        "slug": "middle-tennessee",
+        "images": {
+            "featured": {
+                "landscape": "./images/mid-tn-landscape.JPG",
+                "portrait": "./images/mid-tn-portrait.JPG"
+            }
+        }
     },
     {
         "title": "Benin: Voodo",
@@ -23,6 +29,12 @@
         "phenomena": "possession",
         "songGenre": "afrobeat",
         "artist": "Angelique Kidjo",
-        "slug": "benin"
+        "slug": "benin",
+        "images": {
+            "featured": {
+                "landscape": "./images/mid-tn-landscape.jpg",
+                "portrait": "./images/mid-tn-portrait.jpg"
+            }
+        }
     }
 ]

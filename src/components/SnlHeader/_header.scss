@@ -1,0 +1,36 @@
+.header {
+    border-bottom: 1px solid $orange;
+    height: 279px;
+    background-image: url(../images/masthead-bg.png);
+    background-position: top left;
+    background-repeat: repeat-x;
+    position: relative;
+    &-logo {
+        max-width: 244px;
+        position: absolute;
+        left: 50%;
+        margin-left: -122px;
+    }
+    &-nav {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        &-item {
+            margin-left: 60px;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+        &-link {
+            @include raleway;
+            font-weight: bold;
+            color: $white;
+            text-decoration: none;
+            font-size: $h3-font-size;
+            &:hover {
+                color: $yellow;
+            }
+        }
+    }
+}

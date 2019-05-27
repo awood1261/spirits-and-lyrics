@@ -1,0 +1,16 @@
+@import 'variables';
+@import 'fonts';
+@import "norm/variables";
+@import '../components/SnlHeader/header';
+@import '../components/Footer/footer';
+@import '../components/Hero/homepage-hero';
+
+body {
+    background-color: $black;
+    color: $gray-light;
+    font-family: Raleway;
+}
+
+.title {
+    @include staatliches;
+}

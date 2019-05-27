@@ -11,12 +11,7 @@ exports.createPages = ({ actions: { createPage } }) => {
       createPage({
         path: `/episode/${episode.slug}/`,
         component: require.resolve("./src/templates/SnlEpisode/SnlEpisode.js"),
-        context: {
-          title: episode.title,
-          published: episode.published,
-          publishedYear: episode.publishedYear,
-          url: episode.url
-        },
+        context: { ...episode }
       })
     })
   }

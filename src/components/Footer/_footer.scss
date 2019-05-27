@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    &-col {
+        width: 20%;
+    }
+    &-map {
+        max-width: 124px;
+    }
+    &-logo {
+        max-width: 232px;
+    }
+    &-list {
+        list-style: none;
+        &-item {
+            margin-bottom: 10px;
+        }
+    }
+    &-link {
+        color: $gray-medium;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+            color: $gray-light;
+        }
+        &-title {
+            font-size: $h3-font-size;
+        }
+    }
+}
