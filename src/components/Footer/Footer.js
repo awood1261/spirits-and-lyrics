@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 const Footer = props => (
   <section className="band">
     <footer className="footer container">
-      <div className="footer-col">
+      <div className="footer-col footer-credits">
         <Img
           alt="Spirits and Lyrics Logo"
           fluid={props.footerLogoUrl}

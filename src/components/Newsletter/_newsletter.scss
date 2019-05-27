@@ -3,6 +3,10 @@
     input {
       display: block;
       margin: 10px 0;
+      width: 78%;
+      @include desktop {
+        min-width: 300px;
+      }
     }
   }
 }

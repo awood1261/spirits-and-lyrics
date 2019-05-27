@@ -1,30 +1,54 @@
 .footer {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  &-col {
+    width: 50%;
+  }
+  &-credits {
+      order: 99;
+      width: 100%;
+  }
+  @include desktop {
     justify-content: space-between;
+    flex-direction: row;
     &-col {
+      width: 20%;
+    }
+    &-credits {
+        order: 0;
         width: 20%;
     }
-    &-map {
-        max-width: 124px;
+  }
+  &-map {
+    max-width: 124px;
+  }
+  &-logo {
+    max-width: 232px;
+  }
+  &-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    &-item {
+      margin-bottom: 10px;
     }
-    &-logo {
-        max-width: 232px;
+    @include desktop {
+        padding-left: 1em;
+        margin-top: 1em;
     }
-    &-list {
-        list-style: none;
-        &-item {
-            margin-bottom: 10px;
-        }
+  }
+  &-link {
+    color: $gray-medium;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+      color: $gray-light;
     }
-    &-link {
-        color: $gray-medium;
-        text-decoration: none;
-        &:hover {
-            text-decoration: underline;
-            color: $gray-light;
-        }
-        &-title {
-            font-size: $h3-font-size;
-        }
+    &-title {
+      font-size: $h4-font-size;
+      @include desktop {
+        font-size: $h3-font-size;
+      }
     }
+  }
 }

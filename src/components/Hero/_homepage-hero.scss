@@ -1,36 +1,51 @@
 .hero {
     &--homepage {
-        margin: 115px auto;
+        margin: 40px auto;
+        @include desktop {
+            margin: 115px auto;
+        }
         text-align: center;
         max-width: 770px;
     }
     &-catchline {
         @include staatliches;
-        font-size: 5em;
+        font-size: 3.5em;
         line-height: 0.9em;
         color: $white;
         .emphasis {
             color: $orange;
         }
         margin: 0;
+        @include desktop {
+            font-size: 5em;
+        }
     }
     &-description {
-        font-size: $h2-font-size;
+        font-size: $h4-font-size;
+        @include desktop {
+            font-size: $h2-font-size;
+        }
     }
     &-cta-section {
         margin-top: $base-line-height;
         display: flex;
         justify-content: center;
+        flex-direction: column;
+        @include desktop {
+            flex-direction: row;
+        }
         .button {
-            margin-right: 23px;
-            margin-left: 23px;
+            @include desktop {
+                margin-right: 23px;
+                margin-left: 23px;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
             display: flex;
-            &:first-child {
-                margin-left: 0;
-            }
-            &:last-child {
-                margin-right: 0;
-            }
             &-text {
                 padding-top: 4px;
                 padding-left: 5px;
