@@ -1,0 +1,7 @@
+[Spotify](https://open.spotify.com/show/4h0R7nqQVkd00WYzYeVR5f)
+[Apple](https://podcasts.apple.com/us/podcast/spirits-lyrics/id1465205049)
+[Android](TBD)
+[Pandora](TBD)
+[Google Play](TBD)
+[TuneIn](https://tunein.com/radio/Spirits--Lyrics-p1225718/)
+[Stitcher](https://www.stitcher.com/podcast/spiritsandlyrics/spirits-lyrics)
