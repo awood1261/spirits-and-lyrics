@@ -13,6 +13,7 @@ export default function HTML(props) {
           content="width=device-width, initial-scale=1, shrink-to-fit=yes"
         />
         <link rel="shortcut icon" type="image/png" href={favicon} />
+        <link rel="alternate" type="application/rss+xml" title="Spirits &amp; Lyrics" href="http://podcast.spiritsandlyrics.com/rss"></link>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
