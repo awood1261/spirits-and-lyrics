@@ -18,14 +18,14 @@ const IndexPage = () => (
               ...GatsbyImageSharpFluid
             }
           }
-        },
+        }
         googleplay: file(relativePath: { eq: "images/google-play-icon.png" }) {
           childImageSharp {
             fluid(maxWidth: 13) {
               ...GatsbyImageSharpFluid
             }
           }
-        },
+        }
         midtn: file(relativePath: { eq: "images/mid-ten-feat-ep.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 2000) {
@@ -43,9 +43,7 @@ const IndexPage = () => (
           itunesUrl={data.itunes.childImageSharp.fluid}
           googlePlayUrl={data.googleplay.childImageSharp.fluid}
         />
-        <FeaturedEpisode
-          midtnUrl={data.midtn.childImageSharp.fluid}
-        />
+        <FeaturedEpisode midtnUrl={data.midtn.childImageSharp.fluid} />
         <Newsletter />
       </Layout>
     )}

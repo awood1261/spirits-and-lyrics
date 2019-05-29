@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Img from "gatsby-image"
+import ReactAudioPlayer from "react-audio-player"
 
 const FeaturedEpisode = props => (
   <section className="featured-episode ribbon">
@@ -28,6 +29,7 @@ const FeaturedEpisode = props => (
         laoreet quis ac arcu. Suspendisse vitae finibus ligula. Mauris finibus
         accumsan nisl.
       </p>
+      <ReactAudioPlayer src="http://traffic.libsyn.com/spiritsandlyrics/middle-tenn-final.mp3" className="snl-player" controls />
       <Link to="episode/middle-tennessee" className="link link--violet">
         READ MORE
       </Link>
