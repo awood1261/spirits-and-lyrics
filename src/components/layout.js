@@ -40,6 +40,12 @@ function playPlayer(e) {
   }
 }
 
+const playerEpisode = {
+  "title": "Middle Tennessee: USA",
+  "currentTime": "0:00",
+  "duration": "100:00"
+}
+
 const Layout = ({ children }) => (
   <>
     <Helmet>
@@ -92,7 +98,13 @@ const Layout = ({ children }) => (
             footerMapUrl={data.footermap.childImageSharp.fluid}
             footerLogoUrl={data.footerlogo.childImageSharp.fluid}
           />
-          <Player onClick={playPlayer} />
+          <Player
+            onClick={playPlayer}
+            currentTime={playerEpisode.currentTime}
+            duration={playerEpisode.duration}
+            title={playerEpisode.title}
+            isPlaying={false}
+          />
         </>
       )}
     />
