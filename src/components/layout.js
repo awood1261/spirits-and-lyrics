@@ -10,14 +10,35 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
-import Header from "./header"
 import SnlHeader from "./SnlHeader/SnlHeader"
 import MobileHeader from "./MobileHeader/MobileHeader"
 import Footer from "./Footer/Footer"
+import Player from "./Player/Player"
 
 // import "./layout.css"
 import "../styles/norm/_normalize.scss"
 import "../styles/base.scss"
+
+function playPlayer(e) {
+  console.log(e.target);
+  const audioSrc = document.querySelectorAll('#audio-src')[0];
+  const mercury = document.querySelectorAll('.site-player-progressbar-mercury')[0];
+  const currentTime = document.querySelectorAll('.current-time')[0];
+  const fullTime = document.querySelectorAll('.full-time')[0];
+  if (audioSrc.paused) {
+    audioSrc.play();
+    e.target.innerHTML = "Pause";
+  } else {
+    audioSrc.pause();
+    e.target.innerHTML = "Play";
+  }
+  audioSrc.ontimeupdate = function() {
+    console.log (audioSrc.currentTime / audioSrc.duration * 100);
+   mercury.style.width = audioSrc.currentTime / audioSrc.duration * 100 + '%';
+   currentTime.innerHTML = audioSrc.currentTime;
+   fullTime.innerHTML = audioSrc.duration;
+  }
+}
 
 const Layout = ({ children }) => (
   <>
@@ -71,6 +92,7 @@ const Layout = ({ children }) => (
             footerMapUrl={data.footermap.childImageSharp.fluid}
             footerLogoUrl={data.footerlogo.childImageSharp.fluid}
           />
+          <Player onClick={playPlayer} />
         </>
       )}
     />

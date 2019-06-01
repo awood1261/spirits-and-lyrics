@@ -8,7 +8,7 @@ const Newsletter = props => (
       <h3 className="section-title">Subscribe to the S&amp;L Newsletter!</h3>
       <form>
         <div className="input input--text">
-          <label for="email">Stay up to date on the latest happenings and special events and
+          <label htmlFor="email">Stay up to date on the latest happenings and special events and
         givewaways!</label>
           <input className="input-text" id="email" type="text" />
         </div>

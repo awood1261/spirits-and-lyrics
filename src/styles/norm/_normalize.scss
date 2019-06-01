@@ -49,6 +49,13 @@ html {
 /* Sections
    ========================================================================== */
 
+  html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
 /**
  * Remove the margin in all browsers (opinionated).
  */

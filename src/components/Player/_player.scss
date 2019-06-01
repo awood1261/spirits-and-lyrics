@@ -1,0 +1,39 @@
+.site-player {
+    color: $white;
+    background-color: $orange;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    height: 80px;
+    padding: 10px;
+    &-content {
+        display: flex;
+    }
+    &-progressbar {
+        height: 15px;
+        margin-bottom: 5px;
+        border: 1px solid $white;
+        position: relative;
+        &-mercury {
+            width: 0%;
+            height: 100%;
+            background-color: $black;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+    &-controls {
+        width: 20%;
+    }
+    &-overview {
+        width: 80%;
+        &-content {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.25em;
+        }
+    }
+}
