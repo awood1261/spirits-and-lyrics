@@ -1,5 +1,4 @@
 import React from "react"
-import { Link, StaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
 const HomepageHero = props => (
@@ -13,15 +12,19 @@ const HomepageHero = props => (
       story and a song...from a new location each episode.
     </p>
     <div className="hero-cta-section">
-      <Link className="button button--black" to="http://itunes.com">
+      <a className="button button--black" href="http://itunes.com">
         <Img className="button-icon" alt="iTunes" fluid={props.itunesUrl} />
         <div className="button-text">SUBSCRIBE VIA iTunes</div>
-      </Link>{" "}
+      </a>{" "}
       <span className="text-between">or</span>{" "}
-      <Link className="button button--black" to="http://google.com">
-      <Img className="button-icon" alt="Google Play" fluid={props.googlePlayUrl} />
+      <a className="button button--black" href="http://google.com">
+        <Img
+          className="button-icon"
+          alt="Google Play"
+          fluid={props.googlePlayUrl}
+        />
         <div className="button-text">SUBSCRIBE VIA GOOGLE PLAY</div>
-      </Link>
+      </a>
     </div>
   </section>
 )

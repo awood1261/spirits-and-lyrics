@@ -1,8 +1,11 @@
 .footer {
-  display: flex;
   flex-direction: column;
   &-col {
     width: 50%;
+    &-group {
+      display: flex;
+      margin-bottom: 10px;
+    }
   }
   &-credits {
       order: 99;
@@ -21,9 +24,11 @@
   }
   &-map {
     max-width: 124px;
+    margin: 0 auto;
   }
   &-logo {
     max-width: 232px;
+    margin: 0 auto;
   }
   &-list {
     list-style: none;

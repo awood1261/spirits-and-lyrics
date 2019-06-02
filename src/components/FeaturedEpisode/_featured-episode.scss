@@ -1,38 +1,49 @@
 .featured-episode {
-    &-imagery {
-        margin-bottom: 20px;
-        @include desktop {
-            margin-bottom: 80px;
-        }
+  &-imagery {
+    margin-bottom: 20px;
+    @include desktop {
+      margin-bottom: 80px;
     }
-    &-content {
-        @include desktop {
-            border-top: 1px solid $yellow;
-        }
+  }
+  &-content {
+    @include desktop {
+      border-top: 1px solid $yellow;
     }
-    .subtitle {
-        @include desktop {
-            margin-top: -.5em;
-            text-align: center;
-            margin: -.5em auto .25em;
-            width: 385px;
-            background-color: $black;
-            padding: 0 20px;
-        }
+  }
+  .subtitle {
+    @include desktop {
+      margin-top: -0.5em;
+      text-align: center;
+      margin: -0.5em auto 0.25em;
+      width: 385px;
+      background-color: $black;
+      padding: 0 20px;
     }
-    &-info {
-        color: $gray-medium;
-        font-size: .9em;
-        p {
-            margin: 3px;
-        }
+  }
+  &-info {
+    color: $gray-medium;
+    font-size: 0.9em;
+    p {
+      margin: 3px;
     }
-    &-description {
-        width: 50%;
-        line-height: 1.5em;
+  }
+  &-description {
+    line-height: 1.5em;
+    @include desktop {
+      width: 50%;
     }
+  }
+  &-control {
+    &-icon {
+      color: $white;
+      svg {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
 }
 
 .snl-player {
-    display: block;
+  display: block;
 }

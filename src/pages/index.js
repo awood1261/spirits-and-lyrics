@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 // import Image from "../components/image"
@@ -8,7 +8,7 @@ import HomepageHero from "../components/Hero/HomepageHero"
 import FeaturedEpisode from "../components/FeaturedEpisode/FeaturedEpisode"
 import Newsletter from "../components/Newsletter/Newsletter"
 
-const IndexPage = () => (
+const IndexPage = (props) => (
   <StaticQuery
     query={graphql`
       query logosQuery {
@@ -43,7 +43,7 @@ const IndexPage = () => (
           itunesUrl={data.itunes.childImageSharp.fluid}
           googlePlayUrl={data.googleplay.childImageSharp.fluid}
         />
-        <FeaturedEpisode midtnUrl={data.midtn.childImageSharp.fluid} />
+        <FeaturedEpisode midtnUrl={data.midtn.childImageSharp.fluid} isPlayerInititalized={false} />
         <Newsletter />
       </Layout>
     )}

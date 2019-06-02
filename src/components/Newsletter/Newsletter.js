@@ -1,5 +1,4 @@
 import React from "react"
-import Img from "gatsby-image"
 
 const Newsletter = props => (
   <section className="newsletter band band--dark-gray">
