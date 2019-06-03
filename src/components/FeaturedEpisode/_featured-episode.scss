@@ -20,6 +20,9 @@
       padding: 0 20px;
     }
   }
+  &-header {
+    display: flex;
+  }
   &-info {
     color: $gray-medium;
     font-size: 0.9em;
@@ -36,6 +39,9 @@
   &-control {
     &-icon {
       color: $white;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
       svg {
         width: 40px;
         height: 40px;
