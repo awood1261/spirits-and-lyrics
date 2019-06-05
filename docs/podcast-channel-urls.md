@@ -5,3 +5,4 @@
 [Google Play](TBD)
 [TuneIn](https://tunein.com/radio/Spirits--Lyrics-p1225718/)
 [Stitcher](https://www.stitcher.com/podcast/spiritsandlyrics/spirits-lyrics)
+[Smart URL](https://appurl.io/tRNWR1EMU)

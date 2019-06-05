@@ -6,6 +6,7 @@
         }
         text-align: center;
         max-width: 770px;
+        position: relative;
     }
     &-catchline {
         @include staatliches;
@@ -28,15 +29,6 @@
     }
     &-cta-section {
         margin: $base-line-height auto;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        max-width: 300px;
-        @include desktop {
-            margin-top: $base-line-height;
-            flex-direction: row;
-            max-width: inherit;
-        }
         .button {
             @include desktop {
                 margin-right: 23px;
@@ -49,6 +41,10 @@
                 }
             }
             display: flex;
+            max-width: 180px;
+            margin: 0 auto;
+            justify-content: center;
+            padding: 5px;
             &-text {
                 padding-top: 4px;
                 padding-left: 5px;
@@ -56,6 +52,30 @@
         }
         .text-between {
             margin-top: 20px;
+        }
+        &-links {
+            display: flex;
+            justify-content: center;
+            ul {
+                list-style: none;
+                padding-left: 0;
+            }
+            a {
+                color: $orange;
+                font-weight: bold;
+            }
+        }
+        &-icon {
+            padding-right: 7px;
+            svg {
+                width: 30px;
+                height: 30px;
+                color: $orange;
+            }
+        }
+        &-text {
+            line-height: 30px;
+            font-size: 1.25em;
         }
     }
 }

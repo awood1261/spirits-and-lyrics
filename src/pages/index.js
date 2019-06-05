@@ -32,6 +32,13 @@ const IndexPage = (props) => (
               ...GatsbyImageSharpFluid
             }
           }
+        },
+        herobg: file(relativePath: { eq: "images/whiskey-glass-bg.jpg" }) {
+          childImageSharp {
+            fluid(maxWidth: 2000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
         }
       }
     `}
@@ -42,6 +49,7 @@ const IndexPage = (props) => (
         <HomepageHero
           itunesUrl={data.itunes.childImageSharp.fluid}
           googlePlayUrl={data.googleplay.childImageSharp.fluid}
+          heroSrc={data.herobg.childImageSharp.fluid}
         />
         <FeaturedEpisode midtnUrl={data.midtn.childImageSharp.fluid} isPlayerInititalized={false} />
         <Newsletter />
