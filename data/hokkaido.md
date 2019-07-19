@@ -1,7 +1,8 @@
-<!-- ---
+---
 path: "/blog/hokkaido"
 date: "2019-07-04"
 title: "Hokkaido: Handling Transition"
+episode-url: "<iframe style=\"border: none\" src=\"//html5-player.libsyn.com/embed/episode/id/10410308/height/46/theme/standard/thumbnail/yes/direction/backward/\" height=\"46\" width=\"100%\" scrolling=\"no\"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>"
 ---
 
 Change is never convenient. It seems to come at the most inopportune times. It also brings its partner to ensure the change is followed through, transition. It doesn’t usually seem like it at the time but transition is the connective tissue of your journey in life. They hold a very specific place in your memory and remind you that the only thing permanent in life is change. There is a spectrum of human responses during the transition phase of change. For today’s episode, the responses to transition weave a fascinating story unique to the land of Hokkaido.
@@ -145,4 +146,4 @@ Ankisma Kaa Ka: The song allows for a cool dueling of string instruments. The To
 
 Utari Opunparewa: This sounds like the most accurate representation of what the beginning of a contemporary Kamuy Yukar would sound like. The organ and the chanting sound like the sonic waves would reach beyond the mountains and into the land of the Kamuy to invite themselves down for a story to share with the community. The vocal cadence set a dope sounding call and response.
 
-Kamuy Sinta: Sinta doesn’t have a direct translation in Japanese the closest I could find was Filipino meaning, “love”. That would be fitting for this song to be named for the god of love. This sounds like the soundtrack of a psychedelic, peace-loving chill god. -->
+Kamuy Sinta: Sinta doesn’t have a direct translation in Japanese the closest I could find was Filipino meaning, “love”. That would be fitting for this song to be named for the god of love. This sounds like the soundtrack of a psychedelic, peace-loving chill god.
