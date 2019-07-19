@@ -5,17 +5,27 @@
     &-group {
       display: flex;
       margin-bottom: 10px;
+      @include desktop {
+        width: 50%;
+        justify-content: space-between;
+      }
     }
   }
   &-credits {
       order: 99;
       width: 100%;
   }
+  &-layout {
+    @include desktop {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
   @include desktop {
     justify-content: space-between;
     flex-direction: row;
     &-col {
-      width: 20%;
+      width: 50%;
     }
     &-credits {
         order: 0;
@@ -24,11 +34,11 @@
   }
   &-map {
     max-width: 124px;
-    margin: 0 auto;
+    margin: 0;
   }
   &-logo {
     max-width: 232px;
-    margin: 0 auto;
+    margin: 0;
   }
   &-list {
     list-style: none;

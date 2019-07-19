@@ -8,6 +8,7 @@
   &-content {
     @include desktop {
       border-top: 1px solid $yellow;
+      max-width: inherit!important;
     }
   }
   .subtitle {
@@ -15,7 +16,7 @@
       margin-top: -0.5em;
       text-align: center;
       margin: -0.5em auto 0.25em;
-      width: 385px;
+      width: 408px;
       background-color: $black;
       padding: 0 20px;
     }

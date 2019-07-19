@@ -1,11 +1,18 @@
 .newsletter {
+  form {
+    display: flex;
+  }
+  .subtitle {
+    margin-bottom: .25em;
+  }
   .input--text {
     input {
       display: block;
-      margin: 10px 0;
-      width: 78%;
+      margin-right: 10px;
+      width: 250px;
       @include desktop {
         min-width: 300px;
+        width: 400px;
       }
     }
   }

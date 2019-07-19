@@ -1,5 +1,25 @@
 [
     {
+        "title": "Hokkaido, Japan: Handling Transition",
+        "published": "07/04/2019",
+        "publishedYear": "2019",
+        "duration": "108 minutes",
+        "url": "http://traffic.libsyn.com/spiritsandlyrics/middle-tenn-final.mp3?dest-id=1295600",
+        "player": "<iframe style=\"border: none\" src=\"//html5-player.libsyn.com/embed/episode/id/10410308/height/46/theme/standard/thumbnail/yes/direction/backward/\" height=\"46\" width=\"100%\" scrolling=\"no\"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>",
+        "country": "japan",
+        "drinkType": "whisky",
+        "phenomena": "demigod",
+        "songGenre": "dub",
+        "artist": "Oki Dub Ainu Band",
+        "slug": "hokkaido",
+        "images": {
+            "featured": {
+                "landscape": "./images/mid-tn-landscape.JPG",
+                "portrait": "./images/mid-tn-portrait.JPG"
+            }
+        }
+    },
+    {
         "title": "Middle Tennessee USA: Legacies of Choice",
         "published": "05/24/2019",
         "publishedYear": "2019",

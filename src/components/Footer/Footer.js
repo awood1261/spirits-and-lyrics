@@ -6,38 +6,12 @@ const Footer = props => (
   <section className="band">
     <footer className="footer container">
       <div className="footer-layout">
-        <div className="footer-col footer-credits">
-          <Img
-            alt="Spirits and Lyrics Logo"
-            fluid={props.footerLogoUrl}
-            className="footer-logo"
-          />
-          <p className="legal">
-            Spirits &amp; Lyrics is produced by Alex Wood. All episodes are
-            recorded in Lansdale and Philadelphia PA.
-          </p>
-          <Img
-            alt="Pennsylvania Map"
-            fluid={props.footerMapUrl}
-            className="footer-map"
-          />
-          <p className="legal">
-            &copy; {props.year}{" "}
-            <a
-              className="footer-link"
-              href="http://glownfolks.com"
-              target="blank"
-            >
-              Glown Folks Podcast Network
-            </a>
-          </p>
-        </div>
         <div className="footer-col-group">
           <div className="footer-col">
             <ul className="footer-list">
               <li className="footer-list-item">
                 <Link className="footer-link footer-link-title" to="/episodes">
-                  Episodes
+                  EPISODES
                 </Link>
               </li>
               <li className="footer-list-item">
@@ -56,7 +30,7 @@ const Footer = props => (
             <ul className="footer-list">
               <li className="footer-list-item">
                 <Link className="footer-link footer-link-title" to="/about">
-                  About
+                  ABOUT
                 </Link>
               </li>
               <li className="footer-list-item">
@@ -90,7 +64,7 @@ const Footer = props => (
                   className="footer-link footer-link-title"
                   to="/how-to-listen"
                 >
-                  How To Listen
+                  HOW TO LISTEN
                 </Link>
               </li>
               <li className="footer-list-item">
@@ -109,7 +83,7 @@ const Footer = props => (
             <ul className="footer-list">
               <li className="footer-list-item">
                 <Link className="footer-link footer-link-title" to="/sponsors">
-                  Sponsors
+                  SPONSORS
                 </Link>
               </li>
               <li className="footer-list-item">
@@ -124,6 +98,32 @@ const Footer = props => (
               </li>
             </ul>
           </div>
+        </div>
+        <div className="footer-col footer-credits">
+          <Img
+            alt="Spirits and Lyrics Logo"
+            fluid={props.footerLogoUrl}
+            className="footer-logo"
+          />
+          <p className="legal">
+            Spirits &amp; Lyrics is produced by Alex Wood. All episodes are
+            recorded in Lansdale and Philadelphia PA.
+          </p>
+          <Img
+            alt="Pennsylvania Map"
+            fluid={props.footerMapUrl}
+            className="footer-map"
+          />
+          <p className="legal">
+            &copy; {props.year}{" "}
+            <a
+              className="footer-link"
+              href="http://glownfolks.com"
+              target="blank"
+            >
+              Glown Folks Podcast Network
+            </a>
+          </p>
         </div>
       </div>
     </footer>

@@ -10,7 +10,7 @@
     z-index: 99;
     &-logo {
         width: 232px;
-        margin: 0 auto;
+        margin: 0 auto !important;
     }
     @include desktop {
         display: none;

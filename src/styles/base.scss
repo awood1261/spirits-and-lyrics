@@ -14,7 +14,7 @@ body {
   background-color: $black;
   color: $gray-light;
   font-family: Raleway;
-  font-size: .75em;
+  font-size: 0.75em;
   @include desktop {
     font-size: 1em;
   }
@@ -37,7 +37,7 @@ body {
   font-size: 2.5em;
   text-align: left;
   margin-top: 0;
-  margin-bottom: .25em;
+  margin-bottom: 0.25em;
   @include desktop {
     font-size: 3.5em;
     margin-bottom: 1em;
@@ -111,6 +111,10 @@ body {
     border: 1px solid $orange;
     color: $white;
   }
+  &--violet-bright {
+    background-color: $violet-bright;
+    color: $white;
+  }
   &--violet {
     background-color: $violet;
     color: $white;
@@ -122,9 +126,25 @@ body {
 }
 
 .input {
-    &--text {
-        input {
-            padding: 13px 30px;
-        }
+  &--text {
+    position: relative;
+    input {
+      padding: 26px 30px 6px;
+      margin: 0;
+      &:focus + label,
+      &:valid + label {
+        top: 3px;
+        margin-top: 0;
+        font-size: .75em;
+      }
     }
+    label {
+      position: absolute;
+      top: 50%;
+      left: 30px;
+      width: 100%;
+      transition: 0.2s;
+      margin-top: -10px;
+    }
+  }
 }

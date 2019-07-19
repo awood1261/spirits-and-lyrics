@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Spritis & Lyrics`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Spirits & Lyrics is a podcast about Libations, Songwriting and the Supernatural`,
+    author: `@spiritsandlyrics`,
   },
   plugins: [
     `gatsby-plugin-sass`,

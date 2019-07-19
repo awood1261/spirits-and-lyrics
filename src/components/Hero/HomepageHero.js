@@ -14,7 +14,7 @@ const HomepageHero = props => (
         story and a song...from a new location each episode.
       </p>
       <div className="hero-cta-section">
-        <a className="button button--black" href="/listen">
+        <a className="button button--violet-bright" href="/listen">
           <span className="hero-cta-section-icon">
             <IoIosRadio />
           </span>

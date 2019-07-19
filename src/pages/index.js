@@ -44,7 +44,10 @@ const IndexPage = (props) => (
     `}
     render={data => (
       <Layout>
-        <SEO title="Home" />
+        <SEO
+          title="Spirits & Lyrics"
+          description="Spirits & Lyrics is a podcast about Libations, Songwriting and the Supernatural"
+        />
         {/* <HomepageHero itunesUrl={data.itunes.childImageSharp.fluid} /> */}
         <HomepageHero
           itunesUrl={data.itunes.childImageSharp.fluid}
