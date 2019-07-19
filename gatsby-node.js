@@ -8,15 +8,7 @@
 const path = require("path")
 
 exports.createPages = ({ graphql, actions: { createPage } }) => {
-  const episodes = require("./data/episodes.json")
-  const episodeMdTemplate = path.resolve(`src/templates/episodeMdTemplate.js`)
-  episodes.forEach(episode => {
-    createPage({
-      path: `/episode/${episode.slug}/`,
-      component: require.resolve("./src/templates/SnlEpisode/SnlEpisode.js"),
-      context: { ...episode },
-    })
-  })
+  const episodeMdTemplate = path.resolve(`src/templates/episodeMdTemplate/episodeMdTemplate.js`)
   return graphql(`
     {
       allMarkdownRemark(

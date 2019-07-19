@@ -1,8 +1,9 @@
 ---
-path: "/blog/hokkaido"
+path: "/episodes/hokkaido"
 date: "2019-07-04"
 title: "Hokkaido: Handling Transition"
-episode-url: "<iframe style=\"border: none\" src=\"//html5-player.libsyn.com/embed/episode/id/10410308/height/46/theme/standard/thumbnail/yes/direction/backward/\" height=\"46\" width=\"100%\" scrolling=\"no\"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>"
+episodeBg: "../../data/images/episode/hokkaido/episode-bg-hokkaido.jpg"
+episodeUrl: "<iframe style=\"border: none\" src=\"//html5-player.libsyn.com/embed/episode/id/10410308/height/46/theme/standard/thumbnail/yes/direction/backward/\" height=\"46\" width=\"100%\" scrolling=\"no\"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>"
 ---
 
 Change is never convenient. It seems to come at the most inopportune times. It also brings its partner to ensure the change is followed through, transition. It doesn’t usually seem like it at the time but transition is the connective tissue of your journey in life. They hold a very specific place in your memory and remind you that the only thing permanent in life is change. There is a spectrum of human responses during the transition phase of change. For today’s episode, the responses to transition weave a fascinating story unique to the land of Hokkaido.
@@ -28,7 +29,8 @@ An anime named Golden Kamuy, takes place in Hokkaido during the Meiji period. Sp
 The Emishi people from the movie Princess Mononoke. They were referred to as The Hairy People.
 In the video game Okami, there is a wintery northern island named Kamui which is the reference to the name for gods in Ainu culture.
 
-The Story of Masataka and Rita Taketsuru
+## The Drink Spirit: Nikka Coffey Grain Whisky
+### The Story of Masataka and Rita Taketsuru
 
 The next story is about the end result of managing transition and that change in a bottle. A young man travels halfway across the world to learn of an alcohol that is foreign to his own native land. In the summer after the conclusion of World War I, Masataka Taketsuru, the son of a chemical engineer and sake maker, travels from his homeland of Hiroshima to the University of Glasgow in Scotland to study Organic Chemistry. His purpose of going was to unlock the secret of the one type of European alcohol that had not yet been cracked, whisky. During that same time, a Scottish girl named Jessie Roberta Cowan lost her fiance during World War I and her father to a heart attack. Finances became tight in the Cowan house and Rita’s mother decided to allow someone to stay with them and pay rent. The person was Masastaka. While staying, he and Rita grew fond of one another and they married in 1920. Within a few months, Masataka asked Rita to move back with him to Japan so he could begin creating Scotch in his homeland. The transition period for them both began when Rita agreed to move back. 
 
@@ -44,7 +46,7 @@ Question: so with Japan switching allegiance from WWI to WWII, how did that impa
 
 The period of change became both difficult and advantageous after the Pearl Harbor attack. When Japan attacked the United States, neighbors and even the government became suspicious of Rita being a spy. She became isolated from the community during this time but the Japanese government did allow her to stay in Yoichi. Alternatively, the war was a blessing in disguise for Masataka and the whisky business. The Japanese Navy were known as huge connoisseurs of Scotch Whisky. For the same reason that Rita became distrusted, the Imperial Navy was forced to look inward to fill the demand. There alone was Dai Nihon Kaju, now known as NIkka Whisky. The company was classified as a War Industry. Further rectification for Rita came in 1998 when a Museum was built for her and her husband. She is now known as “The Mother of Japanese Whisky” and also has her own fan club in Japan that journey to the museum in her honor.
 
-Nikka Coffey Grain Whisky
+### Nikka Coffey Grain Whisky
 The Scots spell it whisky and the Irish spell it whiskey, with an extra 'e'. This difference in the spelling comes from the translations of the word from the Scottish and Irish Gaelic forms. Whiskey with the extra 'e' is also used when referring to American whiskies. Japanese whisky is very similar to Scotch in process, taste, and texture. 
 
 Nikka Coffey Grain is predominantly made from corn and a barley malt, then it is distilled in a Coffey Still. 
@@ -59,7 +61,7 @@ Finish: The corn notes, sweet and vibrant, last on the finish.
 Overall: Fans of grain whisky should be pretty happy with this, as well as bourbon lovers.
 
 
-Okikurmi and the Kamuy
+## The Supernatural Spirit: Okikurmi and the Kamuy
 The Ainu people are traditionally animists, they believe that all places, objects and beings have some sort of spiritual essence to them. These persons, places or things appear in Ainu mythology with the name Kamuy. The stories of the Kamuy are passed down for generations through oral traditions or rituals called Yukar. The rituals are performed by men and women in a chant-like fashion. These stories are long epic sagas of oral literature that tell tales of The Land of the Gods (Kamuy Mosir) and The Land of the Humans (Ainu Mosir). By the way Ainu means “human.” The stories fall into two categories:
 Kamuy Yukar: first hand account when a Kamuy tells a tale about themselves. Think the chapters in “A Song of Ice and Fire” by George R. R. Martin
 Yukar: tales about human heroes
@@ -106,7 +108,7 @@ Question: So what happens next?
 Oki reaches and takes out his spear that he’s used numerous times to slay many gods. But in the moment he has a change of heart. He returns the spear to his back. Oki approaches the wind goddess for a reason why she attacked the Ainu village claiming many lives. He also shares that he was planning on killing her but he had changed his mind because Pikatakamuy was the goddess of wind and is necessary. After giving a mandate of no more strong winds to Pikata, Oki shows kindness by healing her bruises, mending her robes and fixing her house with each wave of his magical fan. Oki returns back to the Ainu village with the promise of only calm winds from here on out. Kamuy-Huci has restored most of the villagers from the storm. Okikurmi goes back to helping the Ainu rebuild what was lost and vows to remain protecting the village. I’m sure that the process of staying put after a major setback, facing an adversary head on and then showing mercy in victory is the path that was chosen by the Ainu many times during their transition period with the mainland of Japan.
 
 
-Oki Dub Ainu Band Utarhythm
+## The Lyrics: Utarhythm - Oki Dub Ainu Band
 Oki Kano was born in 1957 in Kanagawa Prefecture, next to Tokyo. He Lived a traditional Japanese life with a mother and father. His nickname at school growing up was Ainu but he didn't pay it any mind. He earned a degree in crafts at  Tokyo University of Fine Arts and Music. Even with a degree earned, Oki was still searching for something. In 1987 he moved to New York City to, "be a nobody".
 
 He worked as a special effects artist on film productions in New York City. No prominent opportunities arose and he spends the next 5 years in New York before returning to Japan still searching to find himself.  He changed careers upon his return, switching from special effects to an art director. Even the change in careers still left Oki searching for himself.
@@ -132,7 +134,7 @@ The instrument almost goes into extinction, but two paths of transition meet and
 
 In addition to bringing the instrument to world recognition, Oki also works with international organizations to help promote Ainu culture and help with indigenous communities around the world.
 
-The Songs
+### The Songs
 
 Utarhythm: The first thing you hear on the album is dueling Tonokoris and chanting. Then it blends in the influences of other cultures like the unmistakable synth transitions and bass of reggae. This songs sounds like the Yukar story of Okikurmi descending from the land of Kamuy to the Ainu village for the first time.
 

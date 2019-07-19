@@ -36,7 +36,7 @@ const FeaturedEpisode = props => (
       <p className="featured-episode-description">
         The guys travel to Middle Tennessee in the United States and talk about the legend of Nathan "Nearest" Greene before tasting Uncle Nearest 1856 Premium Whiskey and Tennessee Gold. Afterwards, the Legend of The Werewolf of Dickson County and the stories of its sightings are talked about. Finally, the guys discuss Freddie Waters and "A Full Moon on Main Street".
       </p>
-      <Link to="episode/middle-tennessee" className="link link--violet">
+      <Link to="episodes/middle-tennessee" className="link link--violet">
         READ MORE
       </Link>
     </div>
