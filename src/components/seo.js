@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title }) {
+function SEO({ description, lang, meta, title, image }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -24,6 +24,22 @@ function SEO({ description, lang, meta, title }) {
       }
     `
   )
+
+  // const { fallbackOgImage } = useStaticQuery(
+  //   graphql`
+  //     query {
+  //       allImageSharp(
+  //         filter: { id: { eq: "f574c321-2dff-5aec-ba05-08e0c23c5154" } }
+  //       ) {
+  //         edges {
+  //           node {
+  //             id
+  //           }
+  //         }
+  //       }
+  //     }
+  //   `
+  // )
 
   const metaDescription = description || site.siteMetadata.description
 
@@ -42,6 +58,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:title`,
           content: title,
+        },
+        {
+          property: `og:image`,
+          content: image,
         },
         {
           property: `og:description`,

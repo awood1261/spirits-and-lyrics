@@ -2,18 +2,24 @@
 path: "/episodes/middle-tennessee"
 date: "2019-05-24"
 title: "Middle Tennessee USA: Legacies of Choice"
+prologue: "Have you ever given thought to the long term result of a key decision you’ve made when faced with different possiblilites?"
+graphDescription: "Have you ever given thought to the long term result of a key decision you’ve made when faced with different possiblilites? It’s a crossroad where each will take you down an irreversible life changing path. How many times have you chosen a path and not fully aware of the long term result?"
 episodeBg: "../../data/images/episode/middle-tennessee/episode-bg-mid-tn.jpg"
 episodeUrl: "<iframe style=\"border: none\" src=\"//html5-player.libsyn.com/embed/episode/id/9905552/height/46/theme/standard/thumbnail/yes/direction/backward/\" height=\"46\" width=\"100%\" scrolling=\"no\"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>"
+heroImg: "../../data/images/episode/middle-tennessee/hero-image-mid-tn.jpg"
+ogImg: "../../data/images/episode/middle-tennessee/og-image-middle-tennessee.jpg"
 ---
 
 Middle Tennessee is the central Grand Division in the state of Tennessee. It’s as far east as the Cumberland Plateau (line between east and central time zone) and as far west as the Tennessee River. It contains 3 subregions: Upper Middle, South Central and Upper Cumberland.
 
 ## The Drink Spirit: Uncle Nearest
+![Uncle Nearest Tennessee Whiskey](images/story-img-uncle-nearest.jpg "Uncle Nearest Tennessee Whiskey")
 Nathan "Nearest" Green (c.1820), was an African-American head stiller, commonly referred to now as a master distiller.  Born into slavery and emancipated after the Civil War, he is known as the master distiller who taught distilling techniques to Jack Daniel, founder of the Jack Daniel Tennessee whiskey distillery. Sometime in the 1850s, when Jack Daniel was a boy, he went to work for Dan Call, a preacher, grocer, and distiller.  According to company lore, the preacher was a busy man, and when he saw promise in young Jack, he taught him how to run his whiskey still.  
 
 In June 2016, The New York Times published a story identifying Daniel's true teacher as Nearest Green, one of Call’s former slaves. The newspaper said that historians and locals have known the Green story for decades, even as the distillery officially ignored it.  Green was hired by Daniel as the first master distiller for Jack Daniel Distillery, and he was the first African-American master distiller on record in the United States.
 
 ## The Supernatural Spirit: Werewolf of Dickson County
+![A Werewolf during the full moon](images/story-img-werewolf.jpg "A Werewolf during the full moon")
 For those that live in Tennessee, you may know there is a place called Werewolf Springs located in Dickson County, where as legend has it, lives a werewolf.  The area referred to as Werewolf Springs is also known as Hall Springs, which presently can be accessed through Montgomery Bell State Park’s 11-mile overnight hiking trail.  Eerily enough, the overnight trail passes through a cemetery before reaching Hall Springs.  Residents grew up hearing tales of the county’s werewolf and noted the story is one of Dickson’s best-known legends. 
 
 The legends and stories say that in the 1860s a circus train derailed, spilling its cargo.  One of the things the circus train was carrying was the “Wolf-men of Borneo” – two supposed “wolf-men” (or werewolves) who were part of the circus attraction.  They say that when cleaning up the wreck, the two wolf-men were never found, dead or alive after the train crash.
@@ -29,6 +35,7 @@ A more recent account of the creature states, “I have lived in Burns for 20 ye
 An interesting question was posed stating, “Is it pure coincidence that the Werewolf is the symbol of the Dickson Scottish clan where all Dicksons originate from. Some speculate it was because the werewolf represented the Dicksons as mercenaries, but I’ve also come across a supposed journal entry of a Dickson Clan member stating that they chose the beast as their symbol because they encountered it and it traveled with them through the Highlands.”  Stories have been heard of werewolves lurking in the Moors of the Scottish Highlands.  Could the Tennessee creature be a descendant of these beings?
 
 ## The Remix: Tennessee Gold
+![Tennessee Gold Mixed Cocktail](images/story-img-tennessee-gold.jpg "Tennessee Gold Mixed Cocktail")
 2 oz. Uncle Nearest Premium Aged Whiskey
 ¾ oz. Fresh Lemon Juice
 ¾ oz. Honey Syrup*
@@ -36,6 +43,7 @@ Add all ingredients into a shaker tin with ice and shake well for ten seconds. S
 *Honey Syrup: Heat equal amounts honey and water in a saucepan. Stir until combined.
 
 ## The Lyrics: A Full Moon on Main Street - Freddie Waters
+![Freddie Waters' Album, \'Just Enough To Get Me Cool\`](images/story-img-freddie-waters.jpg "Freddie Waters' Album, \'Just Enough To Get Me Cool\`")
 Freddie Waters began his musical career in Nashville Tennessee in the mid 1960s as lead singer for a vocal group called the Hytones. They were featured regulars on a legendary television show called "The Night Train" (the earliest known footage of Jimi Hendrix was also on this show). Through this exposure they were discovered by producer/arranger Robert Holmes. He produced a couple of obscure 45s (on a small Excello subsidiary) for them and then was hired as arranger for Ted Jarrett's Ref-O-Ree label. Mr. Holmes brought Freddie Waters and Eddie Frierson (another member of the Hytones) along with him to the new label.
 
 Freddie & Eddie recorded a couple of duets together in a Sam & Dave style but soon Freddie was out on his own as the label's most visible artist, logging several regional hits. As some records started to get action in several major southern markets, it came to the attention of Curtis Mayfield who leased the master and re-released it on his Curtom label. The record did quite well in the south. This success, in turn, lead to interest from Stax Records in Memphis, and it looked like Freddie was getting hot.

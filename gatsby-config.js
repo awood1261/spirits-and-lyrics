@@ -3,6 +3,7 @@ module.exports = {
     title: `Spritis & Lyrics`,
     description: `Spirits & Lyrics is a podcast about Libations, Songwriting and the Supernatural`,
     author: `@spiritsandlyrics`,
+    image: `public/static/og-image-homepage.jpg`
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -14,7 +15,6 @@ module.exports = {
         name: 'data'
       },
     },
-    "gatsby-transformer-remark",
     "gatsby-transformer-json",
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -29,6 +29,19 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
+    },
+    {
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 740
+            }
+          }
+        ]
+      }
     },
     {
       resolve: 'gatsby-plugin-web-font-loader',

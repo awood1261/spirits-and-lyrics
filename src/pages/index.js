@@ -47,6 +47,7 @@ const IndexPage = (props) => (
         <SEO
           title="Spirits & Lyrics"
           description="Spirits & Lyrics is a podcast about Libations, Songwriting and the Supernatural"
+          image="/static/og-image-homepage-c1b6e7e0a885034415a988c31b8268b8.jpg"
         />
         {/* <HomepageHero itunesUrl={data.itunes.childImageSharp.fluid} /> */}
         <HomepageHero

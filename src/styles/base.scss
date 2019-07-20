@@ -149,3 +149,16 @@ body {
     }
   }
 }
+
+.bounds {
+  margin: 0 auto;
+  &--narrow {
+    max-width: 740px;
+  }
+  &--wider {
+    max-width: 1680px;
+  }
+  &--wide {
+    max-width: 1080px;
+  }
+}
