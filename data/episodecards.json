@@ -1,0 +1,49 @@
+[
+    {
+        "title": "Hokkaido, Japan: Handling Transition",
+        "displayName": "Hokkaido",
+        "pitchText": "A magical Japanese island filled stories of transition",
+        "published": "07/04/2019",
+        "publishedYear": "2019",
+        "duration": "108 minutes",
+        "playerUrl": "http://traffic.libsyn.com/spiritsandlyrics/middle-tenn-final.mp3?dest-id=1295600",
+        "player": "<iframe style=\"border: none\" src=\"//html5-player.libsyn.com/embed/episode/id/10410308/height/46/theme/standard/thumbnail/yes/direction/backward/\" height=\"46\" width=\"100%\" scrolling=\"no\"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>",
+        "country": "japan",
+        "drinkType": "whisky",
+        "phenomena": "demigod",
+        "songGenre": "dub",
+        "artist": "Oki Dub Ainu Band",
+        "slug": "hokkaido",
+        "url": "/episodes/hokkaido",
+        "images": {
+            "featured": {
+                "card": "./images/episode/hokkaido/episode-card-hokkaido.jpg",
+                "landscape": "./images/mid-tn-landscape.JPG",
+                "portrait": "./images/mid-tn-portrait.JPG"
+            }
+        }
+    },
+    {
+        "title": "Middle Tennessee USA: Legacies of Choice",
+        "displayName": "Middle Tennessee",
+        "pitchText": "Legacies of choice in the middle grand division",
+        "published": "05/24/2019",
+        "publishedYear": "2019",
+        "duration": "108 minutes",
+        "playerUrl": "http://traffic.libsyn.com/spiritsandlyrics/middle-tenn-final.mp3?dest-id=1295600",
+        "country": "united-states",
+        "drinkType": "whiskey",
+        "phenomena": "shape-shfiting",
+        "songGenre": "blues",
+        "artist": "Freddie Waters",
+        "slug": "middle-tennessee",
+        "url": "/episodes/middle-tennessee",
+        "images": {
+            "featured": {
+                "card": "./images/episode/middle-tennessee/episode-card-middle-tennessee.jpg",
+                "landscape": "./images/mid-tn-landscape.JPG",
+                "portrait": "./images/mid-tn-portrait.JPG"
+            }
+        }
+    }
+]

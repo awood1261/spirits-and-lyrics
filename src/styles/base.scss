@@ -10,6 +10,7 @@
 @import "../components/Newsletter/newsletter";
 @import "../components/Player/player";
 @import "../templates/episodeMdTemplate/episode-page";
+@import "../components/EpisodeCards/episode-cards";
 
 body {
   background-color: $black;
@@ -18,6 +19,13 @@ body {
   font-size: 0.75em;
   @include desktop {
     font-size: 1em;
+  }
+}
+
+.page {
+  margin: 3em 0;
+  .subtitle {
+    margin-bottom: 1em;
   }
 }
 

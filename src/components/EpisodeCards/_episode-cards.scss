@@ -1,0 +1,23 @@
+.episode-cards {
+    display: flex;
+    color: $white;
+}
+.episode-card {
+    width: 33%;
+    margin-right: 10px;
+    &-image {
+        width: 200px;
+        height: 200px;
+    }
+    &-title {
+        font-size: 2em;
+        font-weight: normal;
+        margin: .5em 0;
+    }
+    &-pitch {
+        margin: .5em 0;
+    }
+    .link {
+        font-size: .9em;
+    }
+}
