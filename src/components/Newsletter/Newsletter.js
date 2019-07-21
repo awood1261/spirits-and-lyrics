@@ -5,8 +5,9 @@ const Newsletter = props => (
     <div className="container">
       <h2 className="subtitle">Newsletter</h2>
       <h3 className="section-title">Subscribe to the S&amp;L Newsletter!</h3>
-      <form>
+      <form name="newsletter" method="POST" data-netlify="true" action="/newsletter-success" netlify-honeypot="bot-field">
         <div className="input input--text">
+        <input name="bot-field" className="bot-field" />
           <input className="input-text" id="email" type="text" required />
           <label htmlFor="email">
             Enter your email address
