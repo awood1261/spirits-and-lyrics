@@ -1,6 +1,6 @@
 .hero {
     &--homepage {
-        margin: 40px auto;
+        margin: 100px auto 40px;
         @include desktop {
             margin: 115px auto;
             max-width: 770px;

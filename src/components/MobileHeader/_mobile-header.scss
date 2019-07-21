@@ -15,4 +15,7 @@
     @include desktop {
         display: none;
     }
+    nav {
+        height: 0;
+    }
 }

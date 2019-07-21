@@ -11,6 +11,7 @@
 @import "../components/Player/player";
 @import "../templates/episodeMdTemplate/episode-page";
 @import "../components/EpisodeCards/episode-cards";
+@import "../components/HamburgerMenu/hamburger-menu";
 
 body {
   background-color: $black;
@@ -34,7 +35,7 @@ body {
 }
 
 .middle-content {
-  margin-top: 90px;
+  margin-top: 65px;
   @include desktop {
     margin-top: 0;
   }
