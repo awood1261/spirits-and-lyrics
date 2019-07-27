@@ -12,6 +12,7 @@
 @import "../templates/episodeMdTemplate/episode-page";
 @import "../components/EpisodeCards/episode-cards";
 @import "../components/HamburgerMenu/hamburger-menu";
+@import "../components/Hero/hero";
 
 body {
   background-color: $black;
@@ -31,6 +32,18 @@ body {
   margin: 3em 0;
   .subtitle {
     margin-bottom: 1em;
+  }
+  &-intro {
+    font-size: 1.5em;
+    margin-bottom: 2em;
+    color: $white;
+    @include desktop {
+      font-size: 2em;
+    }
+  }
+  &-content {
+    max-width: 700px;
+    margin: 0 auto;
   }
 }
 
@@ -185,5 +198,29 @@ body {
       width: 100%;
       max-width: 1080px;
     }
+  }
+}
+
+.q-n-a-list {
+  color: $white;
+  font-size: 1.2em;
+  dd, dt {
+    margin: 0;
+  }
+  dt {
+    font-weight: bold;
+    margin-bottom: 1em;
+    &:before {
+      content: ' ';
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      background-color: $orange;
+      margin-right: 10px
+    }
+  }
+  dd {
+    margin-bottom: 2em;
+    line-height: 1.5em;
   }
 }

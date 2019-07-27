@@ -9,3 +9,15 @@
     @content;
   }
 }
+
+@mixin smallscreen {
+  @media (min-width: $desktop) and (max-width: $widescreen) {
+    @content;
+  }
+}
+
+@mixin widescreen {
+  @media (min-width: $widescreen) {
+    @content;
+  }
+}

@@ -1,0 +1,48 @@
+.hero {
+    position: relative;
+    &-bg {
+        min-height: 144px;
+        @include widescreen {
+            min-height: inherit;
+        }
+        @include smallscreen {
+            min-height: 400px;
+        }
+    }
+    &-content {
+        position: absolute;
+        top: 9%;
+        left: 6%;
+        width: 87%;
+        color: $black;
+        border-top: 4px solid $violet;
+        max-width: 1440px;
+        background: rgba(255, 255, 255, 0.65);
+        padding: 0 20px 20px;
+        @include smallscreen {
+            width: 76%;
+            left: 11%;
+            top: 9%;
+        }
+        @include widescreen {
+            width: 63%;
+            left: 17%;
+            top: 24%;
+        }
+    }
+    &-title {
+        @include staatliches;
+        font-size: 3em;
+        margin: 0;
+        @include desktop {
+            font-size: 7em;
+        }
+    }
+    &-subtitle {
+        margin: 0;
+        font-size: 1.5em;
+        @include desktop {
+            font-size: 2em;
+        }
+    }
+}
