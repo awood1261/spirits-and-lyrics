@@ -4,7 +4,7 @@ import { IoIosRadio } from "react-icons/io"
 
 const HomepageHero = props => (
   <section className="hero hero--homepage">
-    <div className="hero-content">
+    <div className="hero-content-area">
       <h1 className="hero-catchline">
         Libations, Songwriting,{" "}
         <span className="emphasis">The Supernatural.</span>
