@@ -5,7 +5,7 @@ title: "Virginia Beach: Paranoia"
 prologue: "We'll examine \"paranoia\", the systems this phenomena creates, and the fears it tries to control."
 graphDescription: "From a distillery's conception by a paranoid president, an alleged witch dealing with the paranoia of her time, to a song about how systematic attempts to control what it fears can spawn its own paranoia for the communities at risk."
 episodeBg: "../../data/images/episode/va-beach/va-beach-bg.jpg"
-episodeUrl: "<iframe style=\"border: none\" src=\"//html5-player.libsyn.com/embed/episode/id/9905552/height/46/theme/standard/thumbnail/yes/direction/backward/\" height=\"46\" width=\"100%\" scrolling=\"no\"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>"
+episodeUrl: "<iframe style=\"border: none\" src=\"//html5-player.libsyn.com/embed/episode/id/11096936/height/46/theme/standard/thumbnail/yes/direction/backward/\" height=\"46\" width=\"100%\" scrolling=\"no\"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>"
 heroImg: "../../data/images/episode/va-beach/va-beach-masthead.jpg"
 ogImg: "../../data/images/episode/va-beach/og-image-va-beach.jpg"
 ---
