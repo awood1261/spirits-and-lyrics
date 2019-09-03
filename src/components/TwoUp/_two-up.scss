@@ -1,0 +1,49 @@
+.two-up {
+  margin: 0 40px;
+  @include desktop {
+    margin: 0;
+  }
+  h3 {
+    font-size: 2em;
+    margin: 0;
+  }
+  &-right-content {
+      margin-left: 31%;
+  }
+  &-items {
+    display: flex;
+  }
+  &-item {
+    width: 40%;
+    margin-left: 40px;
+    &:first-child {
+      margin-left: 0;
+    }
+    &--centered {
+      text-align: center;
+    }
+  }
+  &-subtitle {
+    margin-top: 0;
+  }
+  &-icon {
+    text-align: center;
+    svg {
+      border: 2px solid $white;
+      border-radius: 100%;
+      padding: 9px;
+      fill: $white;
+      width: 100px;
+      height: 100px;
+    }
+  }
+  &-title {
+    margin: 0;
+    @include raleway;
+    font-weight: bold;
+    font-size: 1.25em;
+  }
+  &-description {
+    margin: 0;
+  }
+}

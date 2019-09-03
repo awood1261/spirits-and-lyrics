@@ -13,6 +13,7 @@
 @import "../components/EpisodeCards/episode-cards";
 @import "../components/HamburgerMenu/hamburger-menu";
 @import "../components/Hero/hero";
+@import "../components/TwoUp/two-up";
 
 body {
   background-color: $black;
@@ -44,6 +45,11 @@ body {
   &-content {
     max-width: 700px;
     margin: 0 auto;
+    color: $white;
+    &--non-centered {
+      margin: 0;
+      max-width: 850px;
+    }
   }
 }
 
@@ -223,4 +229,39 @@ body {
     margin-bottom: 2em;
     line-height: 1.5em;
   }
+}
+
+.hidef-bg {
+  position: absolute;
+  max-width: 615px;
+  top: 0;
+  &--headphones {
+    width: 250px;
+    top: 50%;
+    margin-top: -230px;
+    display: none;
+    @include widescreen {
+      display: block;
+    }
+  }
+  &--earbuds {
+    width: 489px;
+    top: 50%;
+    margin-top: -147px;
+    display: none;
+    @include widescreen {
+      display: block;
+    }
+  }
+  &--right {
+    right: 0;
+  }
+  &--left {
+    left: 0;
+  }
+}
+
+.anchor {
+  position: relative;
+  margin: 5em 0;
 }

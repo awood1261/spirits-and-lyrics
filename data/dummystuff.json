@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Want to stay up to date on episodes?",
+        "subtitle": "Here’s how you can stay in the loop on the latest Spirits & Lyrics episodes:",
+        "anchorBg": "headphones",
+        "contentAlignment": "left",
+        "cards": [
+            {
+                "title": "Listen on our website",
+                "subtitle": "Click on the play button next to any of episodes listed on the website.",
+                "icon": "mouse"
+            },
+            {
+                "title": "Download on Demand",
+                "subtitle": "Get each episode as soon as it’s released via a Podcast app.",
+                "icon": "smartphone"
+            }
+        ]
+    },
+    {
+        "title": "Still having trouble figuring out how to listen?",
+        "subtitle": "Not to worry, there are two other options for you:",
+        "anchorBg": "earbudss",
+        "contentAlignment": "right",
+        "cards": [
+            {
+                "title": "Smart Download",
+                "subtitle": "If you’re on a mobile device, we’ll determine which app is best based on your device.",
+                "image": "./images/howToListenImages/smart-download.jpg"
+            },
+            {
+                "title": "How To Download A Podcast",
+                "subtitle": "The people over at the Serial podcast put together a very simple video on how download and listen to a podcast.",
+                "image":  "./images/howToListenImages/serial-video.png"
+            }
+        ]
+    }
+]
