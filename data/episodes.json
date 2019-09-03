@@ -39,6 +39,25 @@
         }
     },
     {
+        "title": "Virginia Beach USA: Paranoia",
+        "published": "09/02/2019",
+        "publishedYear": "2019",
+        "duration": "109 minutes",
+        "url": "http://traffic.libsyn.com/spiritsandlyrics/middle-tenn-final.mp3?dest-id=1295600",
+        "country": "united-states",
+        "drinkType": "bourbon",
+        "phenomena": "witchcraft",
+        "songGenre": "hip-hop",
+        "artist": "The Clipse",
+        "slug": "virginiabeach",
+        "images": {
+            "featured": {
+                "landscape": "./images/mid-tn-landscape.JPG",
+                "portrait": "./images/mid-tn-portrait.JPG"
+            }
+        }
+    },
+    {
         "title": "Benin: Voodo",
         "published": "06/24/2019",
         "publishedYear": "2019",
